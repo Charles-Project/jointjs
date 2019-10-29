@@ -1,0 +1,18 @@
+.main-object {
+	position: absolute;
+	pointer-events: none;
+	-webkit-user-select: none;
+	box-sizing: border-box;
+	background: orangered;
+	height: 500px;
+	width: 100px;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-object h1 {
+	text-align: center;
+	color: white;
+}
